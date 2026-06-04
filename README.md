@@ -121,53 +121,22 @@ The objective of this project is to develop an interactive Sales and Finance Ana
 
 The following SQL queries were used in Databricks to extract key insights from the datasets.
 
-### Query 1 — Total net sales by year
-```sql
-SELECT fiscal_year, SUM(net_sales) AS total_net_sales
-FROM sales_report
-GROUP BY fiscal_year
-ORDER BY fiscal_year;
-```
+###  Total net sales by year
 
-### Query 2 — Top 10 customers by 2021 sales
-```sql
-SELECT customer, sales_2021
-FROM customer_performance_report
-ORDER BY sales_2021 DESC
-LIMIT 10;
-```
 
-### Query 3 — Customer growth % (2020 vs 2021)
-```sql
-SELECT customer, sales_2020, sales_2021,
-  ROUND(((sales_2021 - sales_2020) / sales_2020) * 100, 2) AS growth_pct
-FROM customer_performance_report
-ORDER BY growth_pct DESC;
-```
+###  Top 10 customers by 2021 sales
 
-### Query 4 — Market performance vs target
-```sql
-SELECT country, sales_2021, target_2021,
-  ROUND((sales_2021 - target_2021) / target_2021 * 100, 2) AS pct_gap
-FROM market_performance_vs_target
-ORDER BY pct_gap ASC;
-```
 
-### Query 5 — P&L summary across all years
-```sql
-SELECT metric, val_2019, val_2020, val_2021,
-  ROUND(((val_2021 - val_2020) / val_2020) * 100, 2) AS growth_pct
-FROM pl_report
-WHERE metric IN ('net_sales', 'COGS', 'GROSS MARGIN', 'GM%');
-```
+###  Customer growth % (2020 vs 2021)
 
-### Query 6 — Countries that missed target by more than 12%
-```sql
-SELECT country, pct_gap
-FROM market_performance_vs_target
-WHERE pct_gap < -12
-ORDER BY pct_gap ASC;
-```
+
+###  Market performance vs target
+
+
+###  P&L summary across all years
+
+
+### Countries that missed target by more than 12%
 
 ---
 
