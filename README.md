@@ -1,49 +1,77 @@
-# Excel-Sales-and-Financial-Analytics-
-Overview
+Atliq Hardware Business Intelligence Reports
+Introduction
+Atliq Hardware specializes in selling a wide range of hardware products, including personal computers, mice, printers, and various peripheral devices. Our diverse product lineup caters to a broad range of customers, and we also manufacture our products. To reach our customers, we utilize intermediaries such as retail giants like Croma and Best Buy, as well as popular online marketplaces like Flipkart and Amazon.
 
-AtliQ Hardware, a global supplier of products such as PCs, peripherals, and network devices, assigned me the responsibility of generating sales and financial reports to assess the company's performance in the years 2019, 2020, and 2021. The following are the key findings:
+These intermediaries play a crucial role in connecting Atliq's products with end consumers, ensuring our offerings are accessible to the general public.
 
+Problem Statement
+To develop an interactive business intelligence dashboard, Sales and Finance Analytics Report, aimed at extracting decision-making insights for well-articulated strategies at Atliq Hardware.
 
 Sales Analysis
+Objectives
+Top 10 Products with Sales Increase: Identify which products had the biggest increase in sales from 2020 to 2021.
+Division Sales Report: Create a report showing total revenue in 2020 and 2021 and how much sales grew.
+Top and Bottom 5 Sold Products: Identify the top 5 and bottom 5 products sold by quantity.
+New Products in 2021: List new products Atliq started selling in 2021.
+Top 5 Sales Countries in 2021: Identify the five countries with the highest sales in 2021.
+Sales Analysis Reports
+Top 10 Products with Sales Increase
 
-◆ Comprehensive Analysis: Conducting a thorough examination of net sales data, exploring dimensions such as year, country, product, division, and more.
+Insights: The top ten products with significant sales increases, including the best-seller "AQ Electron 4 3600 Desktop processor" and "AQ Pen Drive DRC".
+Division Sales Report
 
-◆ Target Alignment: Achieved alignment with strategic objectives by meticulously assessing market performance in comparison to predefined targets.
-- dashboard <a href="[htt](https://github.com/richa-kaushik-ds/Excel-Sales-and-Financial-Analytics-/blob/main/Screenshot%202026-03-12%20140024.png)>dashboard view </a>
-- dashboard <a href="[htt](https://github.com/richa-kaushik-ds/Excel-Sales-and-Financial-Analytics-/blob/main/Screenshot%202026-03-12%20140024.png)>dashboard view </a>
-◆ Key Observations: Produced in-depth insights illuminating critical aspects of sales operations.
+Insights:
+PCs sales increased from $40.1 million in 2020 to $165.8 million in 2021.
+Accessories and peripherals grew from $105.2 million to $338.4 million (321.5% increase).
+Networking and storage products surged from $51.4 million to $94.7 million (184.4% increase).
+Top and Bottom 5 Sold Products
 
-<img width="893" height="814" alt="Screenshot 2026-03-12 140258" src="https://github.com/user-attachments/assets/c788b6eb-0047-438e-b97e-bcf4e78bbe15" />
+Top 5 Products by Quantity: Insights on best-performing products, with "AQ Master wired x1 Ms" leading.
+Bottom 5 Products by Quantity: Insights into underperforming products and considerations for adjustments.
+New Products in 2021
 
-<img width="334" height="800" alt="Screenshot 2026-03-12 140237" src="https://github.com/user-attachments/assets/3ab1c20c-5dc1-4530-820b-ce589dea28d2" />
+Insights: 16 new products were added in 2021, with "AQ Qwerty" performing exceptionally well.
+Top 5 Sales Countries in 2021
 
+Insights:
+India led with $161.3 million in sales.
+Strong sales also noted in the USA, South Korea, the UK, and Canada.
+Financial Analysis
+Objectives
+Customer Net Sales Performance Report: Overview of revenue generated from customers.
+Market Performance vs. Sales Targets Comparison: Analysis of sales efforts against goals and market conditions.
+Yearly Profit and Loss (P&L) Report: Financial performance breakdown for each fiscal year.
+Quarterly Profit and Loss (P&L) Comparison: Financial performance trends throughout the year.
+Market-Specific Profit and Loss (P&L) Report: Performance breakdown for each market.
+Quarterly Gross Margin Percentage (GM%) by Location: Profitability view by geographic area.
+Financial Analysis Reports
+Customer Net Sales Performance Report
 
+Insights: Revenue increased from $87.5 million in 2019 to $598.9 million in 2021 (304.5% growth).
+Market Performance vs. Sales Targets Comparison
 
-Finance Analysis
+Insights: Some markets exceeded their sales targets, while others fell short, providing insights for future strategies.
+Yearly Profit and Loss (P&L) Report
 
-◆ Metric Development: Created and implemented vital financial metrics, including Net Sales, COGS, Gross Margin, and GM %, to facilitate the creation of the P&L statement.
+Insights: Net Sales surged by 204.5% over three years, with efficient cost management maintaining a strong gross margin.
+Quarterly Profit and Loss (P&L) Comparison
 
-- <a href="[htt](https://github.com/richa-kaushik-ds/Excel-Sales-and-Financial-Analytics-/blob/main/Screenshot%202026-03-12%20140056.png)>dashboard view </a>
+Insights: Significant sales growth in 2021 with stable profit margins despite increased costs.
+Market-Specific Profit and Loss (P&L) Report
 
-◆ Decision-Making Impact: These metrics play a crucial role in producing valuable insights, enabling informed and data-driven decision-making.
+Insights: Japan and New Zealand showed the highest profit margins, while Germany had lower margins.
+Quarterly Gross Margin Percentage (GM%) by Location
 
-<img width="1021" height="728" alt="Screenshot 2026-03-12 140056" src="https://github.com/user-attachments/assets/27efc354-2145-4dda-a820-a2efe6222fb3" />
-
-Technical Skills ✔️ Proficiency in ETL methodology (Extract, Transform, Load). ✔️ Skills to generate a date table using Power Query. ✔️ Ability to derive fiscal months and quarters. ✔️ Establishing data model relationships with Power Pivot. ✔️ Proficiency in incorporating supplementary data into an existing data model. ✔️ Utilizing DAX to create calculated columns.
-
-Soft Skills ✔️ Refined understanding of Sales & Finance Reports. ✔️ Designing user-centric reports with empathy in mind. ✔️ Optimization of report generation through meticulous fine-tuning. ✔️ Developing a systematic approach to devising a report-building plan.
-
-
-Tools/Used:-
-
-• Microsoft Excel
-
-• Power Query for Data Cleaning & Transformation
-
-• Pivot Table for Data Summarization
-
-• Power Pivot for Data Modelling
-
-• DAX Measures for Calculated Columns
-
-• Conditional Formatting to highlight pertinent data points for stakeholders
+Insights: Variations in profit margins by region, aiding in performance assessments and strategic decisions.
+Overall Insights
+Customer Sales Performance: Notable growth in sales, especially in 2021 with a 304% increase.
+Top 10 Products: Continued strong performance of key products from 2020 to 2021.
+Market Performance vs. Target: Insights into market performance relative to sales goals.
+New Products in 2021: Successful introduction of new products with strong sales.
+Top 5 Countries in 2021: Identification of leading markets with robust sales figures.
+Top and Bottom 5 Products: Focus on both high-performing and underperforming products for strategic adjustments.
+Division Level Report: Impressive growth in the PC division, with substantial revenue increases.
+Profit and Loss Reports: Detailed assessment of financial health across various dimensions.
+Profit and Loss Reports by Markets: Insights into profitability across different regions, informing future strategies.
+Gross Margin % by Quarter: Understanding of regional performance changes, aiding in decision-making.
+This comprehensive overview serves as a foundation for further analysis and strategy formulation at Atliq Hardware.
