@@ -44,14 +44,17 @@ The objective of this project is to develop an interactive Sales and Finance Ana
 **Product Performance Analysis**
 - Identify top-performing products based on sales revenue.
 - Analyze low-performing products requiring attention.
+<img width="1021" height="728" alt="Screenshot 2026-03-12 140056" src="https://github.com/user-attachments/assets/523f42f7-9873-4723-ac9a-5482e9e1c972" />
 
 **Customer Performance Analysis**
 - Evaluate customer contribution to overall revenue.
 - Identify high-value customers and growth opportunities.
+<img width="986" height="825" alt="Screenshot 2026-03-12 140217" src="https://github.com/user-attachments/assets/9a3a89e8-aac2-450a-b297-222334da33a2" />
 
 **Market and Regional Analysis**
 - Compare sales performance across different regions and markets.
 - Identify regions contributing the highest revenue.
+<img width="893" height="814" alt="Screenshot 2026-03-12 140258" src="https://github.com/user-attachments/assets/038f7d06-d888-4c53-b920-c5ad69fbcd75" />
 
 **Trend Analysis**
 - Examine monthly and quarterly sales patterns.
@@ -153,27 +156,8 @@ The Power BI dashboard is divided into the following sections:
 | Total Markets | 23 countries |
 | Net Sales Growth (2020 vs 2021) | 204.5% |
 
-### Dashboard Pages
+<img width="1237" height="692" alt="Screenshot (63)" src="https://github.com/user-attachments/assets/6b0d9de6-d0f2-4d31-99cf-a90b94fc0a59" />
 
-**Page 1 — Sales Overview**
-- Total net sales trend (2019–2021)
-- Customer-wise sales contribution
-- Year-over-year growth comparison
-
-**Page 2 — Customer Performance**
-- Top 10 customers by 2021 revenue
-- Customer growth % (2020 vs 2021)
-- High-value customer identification
-
-**Page 3 — Market Performance vs Target**
-- Country-wise sales vs 2021 target
-- Performance gap (%) for each market
-- Worst performing markets highlighted
-
-**Page 4 — P&L Analysis**
-- Net Sales, COGS, Gross Margin trend (2019–2021)
-- GM% comparison across years
-- Profitability growth analysis
 
 ### Key Dashboard Insights
 - Net sales grew **204.5%** from 2020 to 2021 reaching $598.9M.
